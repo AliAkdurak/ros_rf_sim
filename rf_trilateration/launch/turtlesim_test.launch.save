@@ -1,0 +1,6 @@
+<launch>
+
+	<node name="rf_sim_1" pkg="rf_trilateration" type="rf_sim_node.py" args="5,5"/> 
+<!--	<node name="rf_trilateration_service" pkg="rf_trilateration" type="rf_trilateration_server.py"/> -->
+
+</launch>
